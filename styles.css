@@ -16,7 +16,7 @@ body {
     padding: 30px;
     max-width: 600px;
     width: 100%;
-    position: relative; /* Adicionado para o posicionamento absoluto dos botões */
+    position: relative; /* Necessário para posicionamento absoluto dos botões */
 }
 
 h1 {
@@ -69,8 +69,7 @@ button:active {
     border: 2px solid #ff6f61;
     border-radius: 10px;
     background: #ffffff;
-    position: relative; /* Adicionado para o posicionamento absoluto dos botões */
-    display: inline-block; /* Ajusta a caixa para o tamanho do conteúdo */
+    position: relative; /* Necessário para o posicionamento absoluto dos botões */
 }
 
 .question-box p {
