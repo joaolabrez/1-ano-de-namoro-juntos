@@ -9,7 +9,7 @@ function answer(response) {
     if (response === 'nao') {
         moveNoButton();
     } else {
-        alert("Acho bom mesmo! ❤️");
+        alert("Que ótimo! ❤️");
     }
 }
 
