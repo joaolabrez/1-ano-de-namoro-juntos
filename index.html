@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feliz 1 ano de namoro!</title>
+    <title>Proposta</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Feliz 1 Ano de Namoro meu amorzinho!</h1>
-        <p class="message">Obrigado por tudo nesse 1 ano meu amor, espero que tenha gostado das surpresas que eu preparei, do kurobi e do seu presente, eu sei que é simples mas é de coração ta bom amor!! De verdade muito obrigado por tudo nesse nosso 1 ano juntos e tenho certeza que vai ser pra sempre.</p>
-        <button onclick="showMessage()">Clica em mim</button>
+        <h1>Feliz 1 Ano de Namoro!</h1>
+        <p class="message">Nossa jornada juntos tem sido incrível, cheia de amor e momentos inesquecíveis. Que venham muitos mais anos ao seu lado.</p>
+        <button onclick="showMessage()">Clique para uma surpresa</button>
         <p id="surpriseMessage" class="hidden"></p>
+
+        <div class="question-box">
+            <p>Quer ficar comigo pra sempre?</p>
+            <button onclick="answer('sim')">Sim</button>
+            <button id="noButton" onclick="answer('nao')">Não</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
