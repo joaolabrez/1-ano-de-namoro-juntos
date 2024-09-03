@@ -9,7 +9,7 @@ function answer(response) {
     if (response === 'nao') {
         moveNoButton();
     } else {
-        alert("Que ótimo! ❤️");
+        alert("Obrigado amor, a gente vai ficar juntos pra sempre, ta? ❤️");
     }
 }
 
