@@ -6,9 +6,7 @@ function showMessage() {
 }
 
 function answer(response) {
-    if (response === 'nao') {
-        moveNoButton();
-    } else {
+    if (response === 'sim') {
         alert("Obrigado amor, a gente vai ficar juntos pra sempre, ta? ❤️");
     }
 }
@@ -28,3 +26,12 @@ function moveNoButton() {
     button.style.left = `${newX}px`;
     button.style.top = `${newY}px`;
 }
+
+// Pega o botão "Não"
+const noButton = document.getElementById('noButton');
+
+// Aplica transição suave
+noButton.style.transition = "all 0.3s ease";
+
+// Quando o mouse passar por cima → botão se move
+noButton.addEventListener("mouseenter", moveNoButton);
